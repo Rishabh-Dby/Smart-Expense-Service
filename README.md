@@ -5,7 +5,7 @@ A production-style backend expense management system built using Java and Spring
 The project demonstrates real-world backend engineering concepts such as JWT authentication, Redis caching, background jobs, and cloud deployment on AWS.
 ## 🎥 Demo ##
 
-[Demo link](https://pages.github.com/)
+[Demo](https://pages.github.com/)
 
 ## 🚀 Features ##
 ### 🔐 Authentication & Security ###
@@ -69,28 +69,9 @@ Redis is used for several backend optimizations:
 + Interactive API documentation using Swagger UI
 
 ## 🏗 Architecture ##
-Client
-   │
-   ▼
-Spring Boot REST API
-   │
-   ▼
-Service Layer
-   │
-   ▼
-Repository Layer
-   │
-   ▼
-PostgreSQL Database
+<img width="1536" height="1024" alt="ChatGPT Image Mar 11, 2026, 02_31_30 AM" src="https://github.com/user-attachments/assets/024a6cd9-ecfd-4704-ab14-e59706d51c08" />
 
-Additional infrastructure components:
 
-Spring Boot Application
-       │
-       ├── PostgreSQL (persistent storage)
-       ├── Redis Cloud (caching + rate limiting)
-       ├── Mailtrap SMTP (email alerts)
-       └── AWS EC2 (application hosting)
 ## 🛠 Tech Stack ##
 + Backend
 + Java
@@ -121,30 +102,17 @@ Spring Boot Application
 
 The application is deployed on AWS EC2 as a standalone Spring Boot JAR.
 
-## Deployment stack: ##
-
-AWS EC2
-   │
-   ▼
-Spring Boot Application
-   │
-   ▼
-PostgreSQL Database
-   │
-   ▼
-Redis Cloud
-
 ## ⚙️ Running the Project Locally ##
 ### 1️⃣ Clone the repository ###
 + git clone https://github.com/your-username/smart-expense-tracker.git
 + cd smart-expense-tracker
 ### 2️⃣ Configure Environment Variables ###
-DB_PASSWORD=your_db_password\
-MAIL_USERNAME=your_mailtrap_username\
-MAIL_PASSWORD=your_mailtrap_password\
-REDIS_HOST=your_redis_host\
-REDIS_PASSWORD=your_redis_password\
-JWT_SECRET=your_secret_key
+&emsp;DB_PASSWORD=your_db_password\
+&emsp;MAIL_USERNAME=your_mailtrap_username\
+&emsp;MAIL_PASSWORD=your_mailtrap_password\
+&emsp;REDIS_HOST=your_redis_host\
+&emsp;REDIS_PASSWORD=your_redis_password\
+&emsp;JWT_SECRET=your_secret_key
 ### 3️⃣ Run the Application ###
 
 1. Using Gradle: ./gradlew bootRun
