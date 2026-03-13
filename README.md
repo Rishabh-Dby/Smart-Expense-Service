@@ -5,7 +5,7 @@ A production-style backend expense management system built using Java and Spring
 The project demonstrates real-world backend engineering concepts such as JWT authentication, Redis caching, background jobs, and cloud deployment on AWS.
 ## 🎥 Demo ##
 
-[Demo](https://pages.github.com/)
+[Demo](https://www.youtube.com/watch?v=UDs-OZXAigo)
 
 ## 🚀 Features ##
 ### 🔐 Authentication & Security ###
