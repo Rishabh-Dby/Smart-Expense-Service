@@ -1,4 +1,4 @@
-# Smart Expense Tracker 💰 #
+# Smart Expense Service 💰 #
 
 A production-style backend expense management system built using Java and Spring Boot that helps users track expenses, analyze spending patterns, and receive alerts when their monthly budgets are exceeded.
 
